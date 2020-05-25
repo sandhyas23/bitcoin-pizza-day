@@ -8,7 +8,7 @@ export default class BitcoinPrice extends React.Component {
         this.state = {bpi:{},  currency:'USD'}
 
     }
-    componentWillMount() {
+    componentDidMount() {
         console.log("component app mounted");
         fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
             .then(res=>res.json())
