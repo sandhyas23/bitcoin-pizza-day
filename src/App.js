@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import moment from 'moment';
 import pizza from './images/pizza.png';
 import message from './images/message.png'
 import Countdown from "./Countdown";
